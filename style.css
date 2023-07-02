@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: #0096F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 600px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+h2 {
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+
+
+
+.show-pass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.pass-out {
+  width: 90%;
+}
+
+
+
+.material-icons {
+  font-size: 40px;
+}
+
+.pass-indicator {
+  width: 90%;
+  height: 4px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+
+
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pass-length input {
+  width: 95%;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+li input {
+  margin-right: 20px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  width: 40%;
+  height: 30px;
+  color: aliceblue;
+  background-color: #004FF5;
+}
+
+
